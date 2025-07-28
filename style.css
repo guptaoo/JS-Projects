@@ -1,0 +1,67 @@
+/* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #eaf4f4; /* light background */
+  font-family: "Segoe UI", sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+  padding: 40px 20px;
+}
+
+/* Heading */
+.main-heading {
+  font-size: 32px;
+  color: #333;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+/* Image Display Box */
+.image-box {
+  background: #fff;
+  padding: 24px;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  width: 560px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 430px;
+}
+
+.image-box img {
+  width: 540px;
+  height: 400px;
+  object-fit: cover;
+  border-radius: 10px;
+  transition: opacity 0.3s ease;
+}
+
+/* Button container */
+.button-container {
+  margin-top: 100px; /* reduced from auto + padding to fixed 100px */
+  text-align: center;
+  width: 100%;
+}
+
+button {
+  padding: 12px 28px;
+  font-size: 16px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #218838;
+}
